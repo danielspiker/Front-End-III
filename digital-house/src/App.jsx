@@ -1,11 +1,13 @@
-import { SegundaAula } from './aulas/SegundaAula'
 import { Login } from './pages/Login'
+import { SegundaAula } from './aulas/SegundaAula'
+import { TerceiraAula } from './aulas/TerceiraAula'
 
 function App() {
   return (
     <>
       {/* <Login /> */}
-      <SegundaAula />
+      {/* <SegundaAula /> */}
+      <TerceiraAula />
     </>
   )
 }
