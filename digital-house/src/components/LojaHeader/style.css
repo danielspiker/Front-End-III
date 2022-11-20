@@ -1,0 +1,41 @@
+body {
+  color: white;
+}
+body .container-header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body .container-header .icon-logo {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+}
+body .container-header .icon-logo img {
+  background-color: white;
+  border-radius: 20px;
+  padding: 3px;
+  height: 36px;
+  width: 36px;
+}
+body .container-header .logo {
+  margin-left: 5px;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+body .container-header .menu .lista-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+}
+body .container-header .menu .item-menu {
+  color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+}
+body .container-header .menu .item-menu:first-child {
+  color: rgb(255, 122, 0);
+}/*# sourceMappingURL=style.css.map */

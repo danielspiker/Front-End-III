@@ -1,0 +1,40 @@
+.red-mode {
+  background-color: rgb(227, 54, 80);
+}
+
+.setima-aula-component {
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.setima-aula-component > h1 {
+  margin-bottom: 32px;
+}
+.setima-aula-component > button {
+  color: black;
+  padding: 4px;
+  margin-right: 12px;
+  border: none;
+}
+.setima-aula-component .tittle-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+.setima-aula-component .tittle-wrapper button {
+  font-size: 16px;
+  background-color: rgb(105, 194, 105);
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  transition: 0.2s ease-in-out;
+}
+.setima-aula-component .tittle-wrapper button:hover {
+  filter: brightness(120%);
+  cursor: pointer;
+}
+.setima-aula-component .products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 42px;
+}/*# sourceMappingURL=style.css.map */

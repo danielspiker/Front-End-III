@@ -1,0 +1,28 @@
+.halloween-games-section {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+}
+.halloween-games-section .game-cards {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.halloween-games-section .game-cards .halloween-games {
+  border-radius: 12px;
+  background-color: #151515;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+}
+.halloween-games-section .game-cards .halloween-games .game-price-old {
+  text-decoration: line-through;
+  opacity: 0.3;
+}
+.halloween-games-section .game-cards .halloween-games .game-pic {
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */

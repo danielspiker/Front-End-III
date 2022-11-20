@@ -1,0 +1,85 @@
+.instagram-time-line-component {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.instagram-time-line-component .main-title {
+  margin-bottom: 24px;
+}
+.instagram-time-line-component .posts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.instagram-time-line-component .posts .post {
+  display: flex;
+  flex-direction: column;
+  background-color: #252525;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+.instagram-time-line-component .posts .post:hover {
+  transform: scale(1.02);
+  filter: brightness(120%);
+}
+.instagram-time-line-component .posts .post img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.instagram-time-line-component .posts .post header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px;
+}
+.instagram-time-line-component .posts .post header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.instagram-time-line-component .posts .post header h1 {
+  font-size: 18px;
+  opacity: 0.9;
+  font-weight: 500;
+}
+.instagram-time-line-component .posts .post header h2 {
+  font-size: 14px;
+  opacity: 0.75;
+  font-weight: 300;
+}
+.instagram-time-line-component .posts .post main img {
+  width: 100%;
+  height: 600px;
+}
+.instagram-time-line-component .posts .post main .post-infos {
+  padding: 12px;
+}
+.instagram-time-line-component .posts .post main .post-infos .likeds {
+  opacity: 0.75;
+  font-weight: 300;
+  font-size: 16px;
+}
+.instagram-time-line-component .posts .post main .post-infos .description {
+  margin-top: 12px;
+  font-size: 16px;
+}
+.instagram-time-line-component .posts .post main .comments {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.instagram-time-line-component .posts .post main .comments li {
+  display: flex;
+  gap: 12px;
+}
+.instagram-time-line-component .posts .post main .comments li h1 {
+  font-size: 16px;
+  opacity: 0.9;
+}
+.instagram-time-line-component .posts .post main .comments li p {
+  opacity: 0.75;
+}/*# sourceMappingURL=style.css.map */

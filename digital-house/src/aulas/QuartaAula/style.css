@@ -1,0 +1,24 @@
+.quarta-aula-component * {
+  color: white;
+}
+.quarta-aula-component .main-title {
+  font-size: 32px;
+}
+.quarta-aula-component .components-found {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.quarta-aula-component .components-found li {
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #303030;
+  padding: 12px;
+  border-radius: 12px;
+}
+.quarta-aula-component .components-found li img {
+  width: 400px;
+  border-radius: 12px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1080px;
+  flex-wrap: wrap;
+}
+.container .new-games-section {
+  margin-top: 40px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container .new-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(21, 21, 21);
+  margin: 5px;
+  border-radius: 12px;
+}
+.container .new-games img {
+  height: 100%;
+  border-radius: 12px 0 0 12px;
+}
+.container .new-games .game-name {
+  color: white;
+}
+.container .new-games .icon {
+  height: 20px;
+}
+.container .new-games .game-categories {
+  font-size: 12px;
+  opacity: 0.2;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+.setima-aula-card-produto-component {
+  background-color: #252525;
+  width: calc(32% - 12px);
+  border: 1px solid #303030;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+.setima-aula-card-produto-component:hover {
+  filter: brightness(110%);
+  cursor: pointer;
+}
+.setima-aula-card-produto-component img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.setima-aula-card-produto-component .card-body {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.setima-aula-card-produto-component .card-body span {
+  color: #81c781;
+}/*# sourceMappingURL=style.css.map */
