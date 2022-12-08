@@ -2,7 +2,10 @@ body {
   background-color: rgb(16, 16, 16);
   font-family: Arial, Helvetica, sans-serif;
 }
-body .container {
+
+body .container-loja {
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

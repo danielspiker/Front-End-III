@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: rgb(34, 28, 28);
+  padding: 10px;
+  border-radius: 10px;
+
+  .cadastro {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    button {
+      margin-top: 5px;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .card-dentistas {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo-card-dentistas {
+    margin-bottom: 10px;
+    color: rgb(247, 246, 246);
+  }
+
+  .lista-card-dentistas {
+    list-style: circle;
+    margin-left: 20px;
+  }
+}
+
+.titulo-card-dentistas {
+  color: rgb(247, 246, 246);
+}

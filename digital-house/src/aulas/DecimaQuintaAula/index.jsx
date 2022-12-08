@@ -1,10 +1,13 @@
 import { useState } from 'react'
 import { DecimaQuintaAulaItem } from '../../components/DecimaQuintaAulaItem'
 import './style.scss'
+import { Link, Outlet, useParams } from 'react-router-dom'
 
 export function DecimaQuintaAula() {
   const [locations, setLocations] = useState([])
   const [cep, setCep] = useState('')
+
+  const { id } = useParams()
 
   function searchCep(e) {
     e.preventDefault()
@@ -25,8 +28,9 @@ export function DecimaQuintaAula() {
   }
 
   return (
-    <div className="decima-quarta-aula-component">
+    <div className="decima-quinta-aula-component">
       <form onSubmit={searchCep}>
+        <p>O Id passado é {id}</p>
         <h1>Cadastrar endereços</h1>
 
         <div>
@@ -52,6 +56,10 @@ export function DecimaQuintaAula() {
           />
         ))}
       </section>
+
+      <Link to="/decima-quarta-aula">
+        <button>Aula Anterior</button>
+      </Link>
     </div>
   )
 }

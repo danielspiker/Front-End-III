@@ -1,0 +1,30 @@
+.main-layout-component {
+  .main-layout-component-header {
+    background-color: #a77474;
+    margin-bottom: 12px;
+    padding: 30px;
+  }
+
+  section {
+    display: flex;
+
+    .menu {
+      margin-right: 10px;
+    }
+
+    .lista-menu {
+      background-color: #a77474;
+      padding: 10px;
+      // margin: 15px;
+      list-style: none;
+      height: 90vh;
+      width: 250px;
+    }
+
+    .main-layout-component-main {
+      background-color: rgb(127, 157, 255);
+      padding: 42px;
+      width: 100%;
+    }
+  }
+}

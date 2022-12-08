@@ -1,29 +1,29 @@
 import { useState, useEffect } from 'react'
 
-// export function PedidoPizza() {
-//   const [pedido, setPedido] = useState('')
+export function PedidoPizza() {
+  const [pedido, setPedido] = useState('')
 
-//   function cancelar(e) {
-//     e.preventDefault
-//     alert('Seu pedido foi cancelado')
-//     setPedido('')
-//   }
+  function cancelar(e) {
+    e.preventDefault
+    alert('Seu pedido foi cancelado')
+    setPedido('')
+  }
 
-//   useEffect(() => {
-//     setTimeout(() => {
-//       setPedido('pintça')
-//       console.log('Componente realmente atualizado')
-//     }, 3000)
-//   }, [])
+  useEffect(() => {
+    setTimeout(() => {
+      setPedido('pintça')
+      console.log('Componente realmente atualizado')
+    }, 3000)
+  }, [])
 
-//   return (
-//     <>
-//       <h1>Seu pedido é:</h1>
-//       <h3>{pedido}</h3>
-//       <button onClick={cancelar}>Cancelar</button>
-//     </>
-//   )
-// }
+  return (
+    <>
+      <h1>Seu pedido é:</h1>
+      <h3>{pedido}</h3>
+      <button onClick={cancelar}>Cancelar</button>
+    </>
+  )
+}
 
 // ---------------------------------------
 
@@ -42,16 +42,16 @@ import { useState, useEffect } from 'react'
 
 // --------------------------------------
 
-export const PedidoPizza = () => {
-  const [quantidade, setQuantidade] = useState(3)
+// export const PedidoPizza = () => {
+//   const [quantidade, setQuantidade] = useState(3)
 
-  useEffect(() => {
-    setInterval(() => {
-      setQuantidade(prevState => ++prevState)
-    }, 3000)
-    // se o useEffect tiver RETURN, ao atualizar algum elemento, ele eh executado, sendo responsavel por limpar o efeito
-    return setQuantidade(0)
-  }, [])
+//   useEffect(() => {
+//     setInterval(() => {
+//       setQuantidade(prevState => ++prevState)
+//     }, 3000)
+//     // se o useEffect tiver RETURN, ao atualizar algum elemento, ele eh executado, sendo responsavel por limpar o efeito
+//     return setQuantidade(0)
+//   }, [])
 
-  return <div>Quero {quantidade} chocolates</div>
-}
+//   return <div>Quero {quantidade} chocolates</div>
+// }

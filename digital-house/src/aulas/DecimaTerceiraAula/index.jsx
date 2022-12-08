@@ -23,7 +23,11 @@ export function DecimaTerceiraAula() {
       <button onClick={adicionar}>Atualizar Contador</button>
 
       <div>
-        <input type="text" onChange={e => setUsuario(e.target.value)} />
+        <input
+          type="text"
+          placeholder="escreva até 10 caracteres"
+          onChange={e => setUsuario(e.target.value)}
+        />
         <h2>{usuario}</h2>
         {erro ? <small>Ocorreu erro</small> : null}
       </div>
